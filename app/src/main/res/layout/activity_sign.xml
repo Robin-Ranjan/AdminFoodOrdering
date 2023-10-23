@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="One Click Eat"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:text="Sign Up For Admin Dashboard"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/signInName"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_line"
+        android:drawableLeft="@drawable/usernew"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/signINRestorent"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_line"
+        android:drawableLeft="@drawable/home"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:hint="Name Of Restorent"
+        android:inputType="text"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_line"
+        android:drawableStart="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:hint="Email Or Phone Number"
+        android:inputType="text"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/lock"
+        android:background="@drawable/edittextshape"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="12dp"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCreatAccount"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/greenbuttongradient"
+        android:gravity="center"
+        android:text="Careat Account"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txtAlreadyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Already Have An Account?"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:clickable="true"
+        />
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CreateUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/arrow_left" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagBtn"
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="One Click Eat"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Craate New User"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_line"
+        android:drawableLeft="@drawable/usernew"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_line"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:hint="Email or Phone Number"
+        android:inputType="text"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_line"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:elevation="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createUserBtn"
+        android:layout_width="157dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:outlineSpotShadowColor="@color/textColor"
+        android:background="@drawable/greenbuttongradient"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:text="Create New User"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</LinearLayout>

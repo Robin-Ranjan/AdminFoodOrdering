@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Admin Food Ordering</string>
+    <string name="login_to_your_admin_dashboard">Login To Your Admin Dashboard</string>
+</resources>
