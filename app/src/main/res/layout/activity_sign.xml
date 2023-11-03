@@ -34,7 +34,7 @@
         android:textSize="21sp" />
 
     <EditText
-        android:id="@+id/signInName"
+        android:id="@+id/nameSign"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginTop="25dp"
@@ -49,7 +49,7 @@
         android:paddingStart="10dp" />
 
     <EditText
-        android:id="@+id/signINRestorent"
+        android:id="@+id/restorentName"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
@@ -64,33 +64,34 @@
         android:paddingStart="10dp" />
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="57dp"
-        android:layout_marginTop="12dp"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/edittext_line"
         android:drawableStart="@drawable/mail"
         android:drawablePadding="10dp"
         android:elevation="5dp"
         android:hint="Email Or Phone Number"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:paddingStart="10dp" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="57dp"
-        android:hint="Password"
-        android:drawableLeft="@drawable/lock"
-        android:background="@drawable/edittextshape"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittextshape"
+        android:drawableLeft="@drawable/lock"
         android:drawablePadding="10dp"
         android:elevation="5dp"
+        android:hint="Password"
         android:inputType="textPassword"
-        android:paddingStart="10dp"
-        />
+        android:paddingStart="10dp" />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -100,10 +101,10 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/greenbuttongradient"
         android:gravity="center"
-        android:text="Careat Account"
+        android:text="Careat  Account"
+        android:textAllCaps="false"
         android:textSize="19sp"
-        android:textStyle="bold"
-        android:textAllCaps="false" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/txtAlreadyHaveAccount"

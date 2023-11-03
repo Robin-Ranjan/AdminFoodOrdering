@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Admin Food Ordering</string>
     <string name="login_to_your_admin_dashboard">Login To Your Admin Dashboard</string>
+    <string name="default_web_client_id" translatable="false">523531279700-8jtkt4njv8mnh8n9fbo845cvre62ueio.apps.googleusercontent.com</string>
 </resources>
